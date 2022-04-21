@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# data source 
+./data/
+
+# file system
+*.DS_Store
+
+# dependency
+./pocketsphinx-python/
+
+# vosk model
+# can be found in https://alphacephei.com/vosk/models
+#/model/
+
+# speech-recognition version forked
+# can be found in https://github.com/alinerguio/speech_recognition
+#/speech_recognition/
+
+# google key json
+#/google-key.json
